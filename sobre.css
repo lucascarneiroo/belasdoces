@@ -1,0 +1,284 @@
+body{
+    font-family:'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f54c8d;
+    background-image: url('6515859-pastel-branco-e-rosa-dia-dos-namorados-fundo-texturizado-grunge-vetor.jpg');
+   
+}
+header {
+    font-family: 'Marcellus', serif;
+    background-color: #9c0446;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Questrial', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FAF9F6;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0; right: 0;
+    background: #faf9f6be;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: #cf0d17;
+    font-size: 16px;
+    font-style: bolder;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #000;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;    
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: #cf0d17;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: #cf0d17;
+    z-index: 10001;
+    cursor: pointer;
+}
+body{
+    font-family:'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f54c8d;
+}
+header {
+    font-family: 'Marcellus', serif;
+    background-color: #9c0446;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Questrial', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FAF9F6;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0; right: 0;
+    background: #faf9f6be;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: #cf0d17;
+    font-size: 16px;
+    font-style: bolder;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #000;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;    
+}
+
+.nav-icon i{
+    margin-right: 20px;
+    color: #cf0d17;
+    font-size: 23px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: #cf0d17;
+    z-index: 10001;
+    cursor: pointer;
+}
+  nav {
+    background-color: #e4ceb4dc;
+    padding: 1em;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-size: 18px;
+  }
+ 
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 4em;
+  }
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  .hero-section p {
+    font-size: 1.2em;
+  }
+ 
+  footer {
+    background-color: #9c0446;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    background: linear-gradient(#e4ceb4dc);
+  }
+  
+  .image {
+    position:static;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .image:hover {
+    transform: scale(1.2) rotate(3deg);
+  }
+  
+  .image:hover .info {
+    opacity: 1;
+  }
+  .image:hover {
+    border: 2px solid #9c0446;
+  }
+  .title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+  }
+  
+  .gallery {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .social-icons {
+    display:flow-root;
+    justify-content:center;
+    margin-top: 0px;
+  }
+  
+  .social-icons a {
+    margin: 0 90px;
+  }
